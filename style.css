@@ -12,6 +12,10 @@ body{
     width: 40%;
 }
 
+img{
+    width: 100%;
+}
+
 .right{
     text-align: center;
     float: left;
