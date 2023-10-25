@@ -1,58 +1,55 @@
 html {
-    background-color: rgb(8, 8, 8);
-    color: rgb(230, 230, 230);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-large;
+	background-color: #111112;
+	color: #F4EBD9;
+	font-family: 'Roboto';
+	text-align: center;
 }
 
-p.name {
-    font-size: xx-large;
-}
-
-a {
-    color: #64878B;
-    padding: 2vw;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #B3924A;
-}
-
-.side > .links {
-    margin-top: 10vh;
-}
-
-svg {
-    max-width: 100%;
-    height: auto;
-    float: left;
-}
-
-.side {
-    padding-top: 12vh;
-    text-align: center;
+.info {
+	font-size: 150%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 3vh;
 }
 
 .footer {
-    margin-top: 40vh;
-    clear: both;
-    text-align: center;
-    font-size: small;
-    border-top: 1px solid rgb(36, 36, 36);
+	font-size: 1.5vh;
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	border-top: 1px solid white;
 }
 
-.footer-content {
-    margin-left: 7vw;
-    margin-right: 7vw;
+.name {
+	font-size: 3.5vh;
 }
 
-.email-footer {
-    color: #B03E24;
-    float: left;
+.left {
+	text-align: left;
+	width: 50%;
+	color: #306ad4;
 }
 
-.discord-footer {
-    color: #769161;
-    float: right;
+.right {
+	text-align: right;
+	flex-grow: 1;
+	color: #bfe904;
+}
+
+a {
+	padding: 3vw;
+	color: #444444;
+	text-decoration: none;
+	font-size: 2vh;
+}
+
+a:hover {
+	color: #A99773;
+}
+
+svg {
+	max-width: 100%;
+	height: auto;
+	margin-top: -3%;
 }
