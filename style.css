@@ -9,6 +9,7 @@ html {
 	font-size: 150%;
 	margin-left: 10%;
 	margin-right: 10%;
+	padding-bottom: 10vh;
 	font-size: 3vh;
 }
 
@@ -41,7 +42,7 @@ a {
 	padding: 3vw;
 	color: #444444;
 	text-decoration: none;
-	font-size: 2vh;
+	font-size: 2.5vh;
 }
 
 a:hover {
@@ -49,7 +50,7 @@ a:hover {
 }
 
 svg {
-	max-width: 100%;
+	padding-top: 2vh;
+	max-width: 30%;
 	height: auto;
-	margin-top: -3%;
 }
