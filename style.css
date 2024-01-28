@@ -9,15 +9,15 @@ html {
 	font-size: 150%;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-bottom: 10vh;
+	padding-bottom: 3vh;
 	font-size: 3vh;
 }
 
 .footer {
 	font-size: 1.5vh;
 	display: flex;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
 	margin-top: 1%;
 	border-top: 1px solid white;
 }
@@ -38,15 +38,20 @@ html {
 	color: #bfe904;
 }
 
+.links {
+	padding-bottom: 4vh;
+}
+
 a {
-	padding: 3vw;
-	color: #555555;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	color: #d7e45f;
 	text-decoration: none;
 	font-size: 2.5vh;
 }
 
 a:hover {
-	color: #A99773;
+	color: #443758;
 }
 
 svg {
