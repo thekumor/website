@@ -29,13 +29,13 @@ html {
 .left {
 	text-align: left;
 	width: 50%;
-	color: #306ad4;
+	color: #5562EA;
 }
 
 .right {
 	text-align: right;
 	flex-grow: 1;
-	color: #bfe904;
+	color: #d7e45f;
 }
 
 .links {
